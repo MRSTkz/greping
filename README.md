@@ -5,3 +5,9 @@ rubyの勉強がてらになんか作ってみました
 ruby(rails),c#(.Net),c言語専用のリッチテキストなエディタを作りたい。ワード補完機能も付ける感じで。
 
 補完機能もお手製で作りたいですが、エディタ部分全般は既存のフレームワークとか使いたいなぁとか思ってますまる
+
+How To Use  grep_text.rb
+> ruby grep_text.rb 【file_or_directory_name】 【search_word】 【comand】
+
+ex)def 
+> ruby grep_text.rb project/task 'def (\w+)' Regex
