@@ -11,3 +11,7 @@ How To Use  grep_text.rb
 
 ex)
 > ruby grep_text.rb project/task 'def (\w+)' Regex
+
+なお、RegexとWholeWordを一緒に使おうとするとエラーになるので使わないでください()
+このバグについては、至高のテキストエディタであるAtom（vi,vimやemacsのユーザーに喧嘩を売っていくスタイル）のctrl-rの全文一致検索機能のオプションのWholeWordとは少し差異のある検索を作ろうとした結果なので、今後改善予定です（プッシュする前に直すの忘れてただけなので覚えてればすぐにでも修正されるでしょう）
+
