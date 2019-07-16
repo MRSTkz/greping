@@ -9,5 +9,5 @@ ruby(rails),c#(.Net),c言語専用のリッチテキストなエディタを作�
 How To Use  grep_text.rb
 > ruby grep_text.rb 【file_or_directory_name】 【search_word】 【comand】
 
-ex)def 
+ex)
 > ruby grep_text.rb project/task 'def (\w+)' Regex
