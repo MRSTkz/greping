@@ -55,7 +55,6 @@ def word_case_division(text, word, option)
     text.downcase!
     word.downcase!
   rescue StandardError
-    next
   end
 end
 
