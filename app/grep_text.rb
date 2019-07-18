@@ -28,8 +28,6 @@ class Grept
 
   def directory(dir, word, option)
     dir += '/' if dir[-1] != '/' && File.ftype(dir) == 'directory'
-    p dir
-    p Dir.getwd
     Dir.glob(dir + '*') do |path|
       if File.ftype(path) == 'directory'
         directory(path, word, option)
