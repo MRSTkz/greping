@@ -1,0 +1,23 @@
+option:
+  MatchCase: null
+  BulkMatch: null
+  WholeWord: null
+  Regex: null
+ext:
+  - .png
+  - .csv
+  - .jpg
+  - .zip
+  - .ttf
+  - .ttc
+  - .pdf
+  - .ico
+  - .xls
+  - .xlsx
+  - .EUF
+  - .example
+  - .TTE
+  - .cache
+  - .bundle
+  - .so
+  - ''
