@@ -1,0 +1,8 @@
+text editorの実行用ディレクトリ
+app以下の機能を用いたエディタとなるようにする
+
+構想
+./editor.rb(メイン実行部分) => ./editor/u_editor.rb or u_editor.cpp => ./app/grep_file.rb & grep_text.rb
+
+現状
+./grep.rb => ./app/grep_text.rb
